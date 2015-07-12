@@ -8,4 +8,5 @@ route add default gw 192.168.7.1
 echo "nameserver 8.8.8.8" >> /etc/resolv.conf
 
 # Sets date and time
-/usr/bin/ntpdate -b -s -u de.pool.ntp.org 
+ntpdate br.pool.ntp.org 
+#/usr/bin/ntpdate -b -s -u de.pool.ntp.org 
